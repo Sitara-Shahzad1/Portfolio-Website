@@ -1,0 +1,194 @@
+ * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: black;
+            color: aliceblue;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(29, 24, 24);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-right: 23px;
+            padding: 23px 43px;
+
+        }
+
+        nav ul li {
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+
+        nav ul li a:hover {
+
+            color: aquamarine;
+            font-size: 1.1rem;
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 43px 0;
+
+        }
+
+        .leftsection {
+
+            height: 0px;
+            width: 80%;
+            font-size: 33px;
+            margin: 100px 76px;
+        }
+
+        .rightsection img {
+
+            margin: 50px 0px;
+            width: 70%;
+        }
+
+        .purple {
+            color: rgb(142, 103, 176);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        #element {
+            color: rgb(142, 103, 176);
+        }
+
+        .secondSection {
+            margin: 2px 69px;
+            font-size: 1.5rem;
+            height: 100vh;
+        }
+
+        .box {
+            background-image: url('web logo.png');
+            opacity: 0.5;
+            background-size: 30%;
+            background-position-x: center;
+            background-repeat: no-repeat;
+
+            width: auto;
+            height: 68vh;
+            background-color: #c9aac42e;
+            margin: 33px 32px;
+            border: 2px whitesmoke;
+            border-width: 20px;
+            display: flex;
+
+        }
+
+        hr {
+            border: 0px;
+            background: #bf9bba;
+            height: 1.2px;
+            margin: 18px 51px;
+        }
+
+        .textGray {
+            font-size: 13px;
+            margin: 20px 69px;
+            color: grey;
+        }
+
+        .vertical {
+            display: flex;
+            width: 2px;
+            border: 2px;
+            height: 93px;
+            background: #bf9bba;
+            margin: 0px 100px;
+        }
+
+        h1 {
+            position: relative;
+            top: 95px;
+            font-size: 14px;
+            color: #fff6f6;
+            width: 150px
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 158px;
+            left: 97px;
+            color: gray;
+            width: 132px;
+            font-size: 8px;
+            margin-left: -214px;
+            height: 26px;
+        }
+        .vertical-desc1 {
+            position: relative;
+            top: 158px;
+            left: 75px;
+            color: gray;
+            width: 132px;
+            font-size: 8px;
+            margin-left: -214px;
+            height: 26px;
+        }
+
+       footer{
+          background-color: #c9aac42e;
+          height: 181px;
+          margin: 0px;
+          padding: 0px;
+       }
+
+       .footer{
+        display: flex;
+    margin: 25px 63px;
+
+       }
+       .footer ul li{
+        list-style: none;
+        font-size: 11px;
+        margin: 3px;
+       }
+       .footerRight{
+        margin: 2px;
+        font-size: 13px;
+        text-align: center;
+        color: gray;
+       }
+       .btn{
+
+        background-color: #af9ba7;
+    font-size: 13px;
+    margin: 8px;
+    padding: 4px;
+    border: 2px solid #6a5252;
+    border-radius: 6px;
+       }
+       .btn:hover{
+        background-color: #8f7171;
+    font-style: oblique;
+       }
+       .btn a{
+        text-decoration: none;
+        color: black;
+       }
+      
